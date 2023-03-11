@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformation 2D</title>
+    <style>
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .kotak {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            margin: 50px auto 0;
+            transition: 1s;
+        }
+
+        .kotak:hover {
+            /* transform: scale(2); */
+            /* transform: rotateX(90deg) rotate(90deg) rotateY(50deg); */
+            /* transform: skew(30deg); */
+            /* transform: translate(50px, 100px); */
+            transform: scale(1.5) rotate(-360deg);
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        transform:
+        scale
+        rotate
+        skew
+        translate
+     -->
+     <div class="kotak"></div>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex sequi ab ullam voluptas excepturi dolor, minima labore, maxime aliquid pariatur non corrupti ducimus laudantium illum fuga eos natus iure dolores!</p>
+</body>
+</html>

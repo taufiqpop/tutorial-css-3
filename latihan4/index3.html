@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Shadow (Inset)</title>
+    <!-- 
+        x-offside
+        y-offside
+        blur
+        color
+
+        inset
+        spread
+     -->
+    <style>
+        .inset {
+            width: 300px;
+            height: 300px;
+            background-color: #39b54a;
+            margin: 50px auto;
+            box-shadow: inset 0px 0px 5px 5px rgba(0, 0, 0, .5);
+        }
+
+        .multishadow {
+            width: 300px;
+            height: 300px;
+            background-color: #39b54a;
+            margin: 50px auto;
+            box-shadow: 0px 0px 0px 5px red,
+                        0px 0px 0px 10px green,
+                        0px 0px 0px 15px yellow,
+                        0px 0px 0px 20px orange;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="inset"></div>
+
+    <div class="multishadow"></div>
+</body>
+</html>
