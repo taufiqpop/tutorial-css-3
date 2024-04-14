@@ -1,5 +1,2 @@
-# css-3
-
-Belajar Pemrograman CSS 3
-
-Sumber : https://www.youtube.com/playlist?list=PLFIM0718LjIVCmrSWbZPKCccCkfFw-Naa
+# tutorial-css-3
+Tutorial CSS (Cascading Style Sheets) 3
